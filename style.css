@@ -1,0 +1,22 @@
+.box, .checkbox, .circle, .dot, .up, .down{
+    background-image: url('form-elements-sprite.png');
+    background-repeat: no-repeat;
+  }
+  
+  .box {
+    height: 200px;
+    width: 200px;
+    background-position: -150px -225px;
+  }
+  
+  .checkbox{
+    height: 200px;
+    width: 200px;
+    background-position: -370px -225px;
+  }
+  
+  .circle {
+    height: 200px;
+    width: 200px;
+    background-position: -150px -225px;
+  }
