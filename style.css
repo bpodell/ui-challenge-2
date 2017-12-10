@@ -47,3 +47,18 @@
     background-position: -370px -225px;
     display: inline-block;
   }
+  .up {
+    height: 200px;
+    width: 140px;
+    background-position: -1000px -225px;
+    display: inline-block;
+  }
+  .down {
+    height: 200px;
+    width: 140px;
+    background-position: -1120px -225px;
+    display: inline-block;
+  }
+li {
+    background-color: black;
+}
