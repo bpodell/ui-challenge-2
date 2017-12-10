@@ -1,4 +1,4 @@
-.box, .checkbox, .circle, .dot, .up, .down{
+.box, .checkbox, .circle, .dot, .up, .down, .textinput, .radio, .button1, .button2{
     background-image: url('form-elements-sprite.png');
     background-repeat: no-repeat;
   }
@@ -9,14 +9,41 @@
     background-position: -150px -225px;
   }
   
-  .checkbox{
+  .textinput{
     height: 200px;
     width: 200px;
     background-position: -370px -225px;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
   }
   
   .circle {
     height: 200px;
     width: 200px;
     background-position: -150px -225px;
+  }
+
+  .checkbox {
+      height: 200px;
+      width: 400px;
+      background-position: -150px -225px;
+  }
+
+  .radio{
+    height: 200px;
+    width: 400px;
+    background-position: -580px -225px;
+  }
+  .button1 {
+    height: 200px;
+    width: 200px;
+    background-position: -150px -225px;
+    display: inline-block;
+  }
+  .button2 {
+    height: 200px;
+    width: 200px;
+    background-position: -370px -225px;
+    display: inline-block;
   }
