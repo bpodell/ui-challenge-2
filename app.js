@@ -1,10 +1,10 @@
-var coinImage = new Image();
-coinImage.src = "form-elements-sprite.png";
+var sprites = new Image();
+sprites.src = 'form-elements-sprite.png';
 
 function sprite (options) {
-    
+
   var that = {};
-            
+
   that.context = options.context;
   that.width = options.width;
   that.height = options.height;
@@ -13,23 +13,23 @@ function sprite (options) {
   return that;
 }
 
-var canvas = document.getElementById("coinAnimation");
+var canvas = document.getElementById('spritesJS');
 canvas.width = 100;
 canvas.height = 100;
 
-var coin = sprite({
-  context: canvas.getContext("2d"),
+var image1 = sprite({
+  context: canvas.getContext('2d'),
   width: 100,
   height: 100,
-  image: coinImage
+  image: sprites
 });
 
 function sprite (options) {
-    
-    
-                    
+
+
+
   that.render = function () {
-    
+
     // Draw the animation
     that.context.drawImage(
       that.image,
@@ -42,8 +42,8 @@ function sprite (options) {
       that.width,
       that.height);
   };
-        
-    
-    
+
+
+
 }
-coin.render();
+image1.render();

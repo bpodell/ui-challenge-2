@@ -1,6 +1,7 @@
 .box, .checkbox, .circle, .dot, .up, .down, .textinput, .radio, .button1, .button2{
     background-image: url('form-elements-sprite.png');
     background-repeat: no-repeat;
+    /* background-size: 200px; */
   }
   
   .box {
