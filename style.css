@@ -1,0 +1,65 @@
+.box, .checkbox, .circle, .dot, .up, .down, .textinput, .radio, .button1, .button2{
+    background-image: url('form-elements-sprite.png');
+    background-repeat: no-repeat;
+    /* background-size: 200px; */
+  }
+  
+  .box {
+    height: 200px;
+    width: 200px;
+    background-position: -150px -225px;
+  }
+  
+  .textinput{
+    height: 200px;
+    width: 200px;
+    background-position: -370px -225px;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .circle {
+    height: 200px;
+    width: 200px;
+    background-position: -150px -225px;
+  }
+
+  .checkbox {
+      height: 200px;
+      width: 400px;
+      background-position: -150px -225px;
+  }
+
+  .radio{
+    height: 200px;
+    width: 400px;
+    background-position: -580px -225px;
+  }
+  .button1 {
+    height: 200px;
+    width: 200px;
+    background-position: -150px -225px;
+    display: inline-block;
+  }
+  .button2 {
+    height: 200px;
+    width: 200px;
+    background-position: -370px -225px;
+    display: inline-block;
+  }
+  .up {
+    height: 200px;
+    width: 140px;
+    background-position: -1000px -225px;
+    display: inline-block;
+  }
+  .down {
+    height: 200px;
+    width: 140px;
+    background-position: -1120px -225px;
+    display: inline-block;
+  }
+li {
+    background-color: black;
+}
